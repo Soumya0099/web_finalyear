@@ -78,7 +78,7 @@ nav img{
     height: 87vh;
     width: 93%;
     margin: 0 auto;
-    padding: 0 6vw;
+    padding: 0 vw;
     /* border: 2px solid yellow; */
     /* background: #6be3d9; */
     display: flex;
@@ -89,7 +89,8 @@ nav img{
     height: 45%;
     width: 49%;
     margin-top:8vw;
-    padding: 1vw 5vw;
+    padding: 1vw 0;
+    padding-left: 11vw;
     color: #fff;
 }
 .hero-text p{
@@ -120,10 +121,10 @@ nav img{
     padding: 0.5vw 1vw;
 }
 .hero-image{
-    height: 70%;
-    width: 60%;
+    height: 95%;
+    width: 75%;
     /* border: 2px solid red; */
-    margin-top:8vw;
+    margin-top:1vw;
 
 }
 .features{
@@ -135,7 +136,7 @@ nav img{
     height: 22vh;
     width: 80%;
     /* border: 2px solid maroon; */
-    margin: 0 auto;
+    margin: 2vw auto;
     display: flex;
     flex-direction: column;
     align-items: center;
