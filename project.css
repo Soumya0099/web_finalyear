@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #fff;
 }
 html,body{
     height: 100%;
@@ -18,11 +19,10 @@ html,body{
     height: 100vh;
     width: 100%;
     /* border: 2px solid red; */
-    background: #b1ee9c;
+    background: linear-gradient(90deg, rgb(0, 7, 3),rgb(3, 29, 0),rgb(0, 101, 0), rgb(0, 83, 0));
 }
 nav{
     height: 8vh;
-    width: 93%;
     /* border: 2px solid blue; */
     margin: 1vw auto;
     display: flex;
