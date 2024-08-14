@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* color: #fff; */
+    /* color: #000; */
 }
 html,body{
     height: 100%;
@@ -13,13 +13,13 @@ html,body{
     width: 100%;
     
     /* border: 2px solid green; */
-    background-color: rgb(255, 251, 239);
+    background-color: rgb(247, 239, 218);
 }
 #home{
     height: 100vh;
     width: 100%;
     /* border: 2px solid red; */
-    background: linear-gradient(90deg, rgb(9, 35, 18),rgb(7, 55, 14),rgb(2, 99, 2), rgb(0, 113, 43));
+    /* background: linear-gradient(90deg, rgb(9, 35, 18),rgb(7, 55, 14),rgb(2, 99, 2), rgb(0, 113, 43)); */
 }
 nav{
     height: 8vh;
@@ -41,7 +41,8 @@ nav img{
     text-decoration: none;
     font-size: 1.3vw;
     position: relative;
-    color: #fff;
+    color: #000;
+    font-weight: 530;
     
 }
 .right a::after{
@@ -65,7 +66,7 @@ nav img{
     border: none;
     border-radius: 3px ;
     background-color: rgb(233, 90, 39);
-    color: #fff;
+    color: #000;
     font-size: 1.2vw;
     font-weight: 400;
     cursor: pointer;
@@ -91,7 +92,7 @@ nav img{
     margin-top:8vw;
     padding: 1vw 0;
     padding-left: 11vw;
-    color: #fff;
+    color: #000;
 }
 .hero-text p{
     margin: 0.7vw 0;
@@ -114,7 +115,7 @@ nav img{
     border: none;
     border-radius: 3px ;
     background-color: rgb(233, 90, 39);
-    color: #fff;
+    color: #000;
     font-size: 1.1vw;
     font-weight: 400;
     cursor: pointer;
@@ -168,7 +169,7 @@ nav img{
     transition: ease-in-out 0.3s;
     &:hover{
         background: #4285F4;
-        color: #fff;
+        color: #ffffff;
         transform: translatey(-10px);
     }
 }
@@ -186,7 +187,7 @@ nav img{
     
 }
 .box:hover .icon{
-    background: #fff;
+    background: #ffffff;
     
 }
 .box:hover .icon i{
@@ -194,7 +195,7 @@ nav img{
 }
 .icon i{
     font-size: 2.3vw;
-    color: #fff;
+    color: #ffffff;
     
 }
 .box h3{
