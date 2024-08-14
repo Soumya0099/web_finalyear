@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* color: #000; */
+    /* color: #fff; */
 }
 html,body{
     height: 100%;
@@ -13,13 +13,13 @@ html,body{
     width: 100%;
     
     /* border: 2px solid green; */
-    background-color: rgb(247, 239, 218);
+    background-color: rgb(255, 251, 239);
 }
 #home{
     height: 100vh;
     width: 100%;
     /* border: 2px solid red; */
-    /* background: linear-gradient(90deg, rgb(9, 35, 18),rgb(7, 55, 14),rgb(2, 99, 2), rgb(0, 113, 43)); */
+    background: linear-gradient(90deg, rgb(9, 35, 18),rgb(7, 55, 14),rgb(2, 99, 2), rgb(0, 113, 43));
 }
 nav{
     height: 8vh;
@@ -41,8 +41,7 @@ nav img{
     text-decoration: none;
     font-size: 1.3vw;
     position: relative;
-    color: #000;
-    font-weight: 530;
+    color: #fff;
     
 }
 .right a::after{
@@ -66,7 +65,7 @@ nav img{
     border: none;
     border-radius: 3px ;
     background-color: rgb(233, 90, 39);
-    color: #000;
+    color: #fff;
     font-size: 1.2vw;
     font-weight: 400;
     cursor: pointer;
@@ -91,8 +90,9 @@ nav img{
     width: 49%;
     margin-top:8vw;
     padding: 1vw 0;
+    padding-top: 2.5vw;
     padding-left: 11vw;
-    color: #000;
+    color: #fff;
 }
 .hero-text p{
     margin: 0.7vw 0;
@@ -115,14 +115,14 @@ nav img{
     border: none;
     border-radius: 3px ;
     background-color: rgb(233, 90, 39);
-    color: #000;
+    color: #fff;
     font-size: 1.1vw;
     font-weight: 400;
     cursor: pointer;
     padding: 0.5vw 1vw;
 }
 .hero-image{
-    height: 95%;
+    height: 90%;
     width: 75%;
     /* border: 2px solid red; */
     margin-top:1vw;
@@ -169,7 +169,7 @@ nav img{
     transition: ease-in-out 0.3s;
     &:hover{
         background: #4285F4;
-        color: #ffffff;
+        color: #fff;
         transform: translatey(-10px);
     }
 }
@@ -187,7 +187,7 @@ nav img{
     
 }
 .box:hover .icon{
-    background: #ffffff;
+    background: #fff;
     
 }
 .box:hover .icon i{
@@ -195,7 +195,7 @@ nav img{
 }
 .icon i{
     font-size: 2.3vw;
-    color: #ffffff;
+    color: #fff;
     
 }
 .box h3{
