@@ -37,6 +37,7 @@ nav{
 nav img{
     height:7vh ;
     width: 10%;
+    border-radius: 5%;
 }
 .right a{
     padding: 0 1vw;
@@ -306,3 +307,83 @@ button:hover{
     font-size: 17px;
 }
 
+.feed{
+    height: 90vh;
+    width: 100%;
+    /* border: 2px solid red; */
+    background: #F8F6F3;
+}
+.feedback{
+    height: 90vh;
+    width: 85%;
+    /* border: 2px solid green; */
+    margin: 0 auto;
+}
+.feedback-text{
+    height: 10vh;
+    width: 80%;
+    /* border:2px solid #0062ff; */
+    margin: 0 auto;
+    text-align: center;
+    padding: 2vw 0;
+}
+.feedback-style{
+    height: 75vh;
+    width: 80%;
+    /* border: 2px solid black; */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+
+}
+.reviews-box{
+    height: 40vh;
+    width: 20vw;
+    /* border: 2px solid orangered; */
+    /* flex: 1; */
+    border-radius: 8px;
+    box-shadow: 0 0 15px 8px rgba(92, 91, 91, 0.3);
+    margin-bottom: 4vw;
+
+    
+}
+
+.star{
+    height: 8vh;
+    width: 100%;
+    /* border: 2px solid purple; */
+    text-align: center;
+    font-size: 13px;
+    color: #FFBB1E;
+    padding: 2vw 0;
+}
+.star :nth-child(2){
+    height: 15px;
+    position: relative;
+    top: 0;
+}
+.customer-text{
+    
+    height: 50px;
+    width: 100%;
+    /* border: 2px solid rgb(255, 0, 238); */
+    padding: 1vw 1vw;
+}
+.customer-text h5{
+    margin-top: 3vw;
+    text-align: end;
+    padding: 0 2vw;
+}
+
+footer{
+    height: 10vh;
+    width: 100%;
+    text-align: center;
+    word-spacing: 2px;
+}
+#heart{
+    color: rgb(255, 0, 0);
+}
